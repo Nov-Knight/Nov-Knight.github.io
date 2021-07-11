@@ -6,6 +6,4 @@ const bgImage = `./img/${chosenImage}`;
 
 const bgUrl = `url("${bgImage}")`;
 
-console.log(bgUrl);
-
 document.body.style.backgroundImage = bgUrl;
